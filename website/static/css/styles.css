@@ -121,13 +121,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-proportion {
-    width: 1160px;
+    object-fit: cover;
+    width: 1300px;
+    height: 37rem;
 }
 
 .carousel-image {
     position: relative;
-    bottom: 150px;
-    width: 130%;
+    width: 100%;
 }
 
 .carousel .carousel-indicators > :not(.active)  {
@@ -209,6 +210,18 @@ h1, h2, h3, h4, h5, h6 {
     height: 34px;
 }
 
+@media (max-width: 1300px) {
+    .carousel-proportion {
+        width: 100%;
+    }
+
+    .carousel-image {
+        position: relative;
+        bottom: 0px;
+        width: 1300px;
+    }
+}
+
 @media (max-width: 1200px) {
     .hero-titles {
         padding-top: 60px;
@@ -222,18 +235,6 @@ h1, h2, h3, h4, h5, h6 {
     .search-button {
         margin-left: 40px;
         margin-top: 20px;
-    }
-
-    .carousel-proportion {
-        width: 100%;
-        height: 40rem;
-    }
-
-    .carousel-image {
-        position: relative;
-        bottom: 0px;
-        width: auto;
-        height: 120%;
     }
 
     .contact-us {
