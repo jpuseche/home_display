@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1200px) {
     .hero {
         background-size: cover;
-        background-position: center 40px;
+        background-position: center 0px;
     }
 
     .search-button {
