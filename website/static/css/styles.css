@@ -53,6 +53,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #EAECEB;
 }
 
+.hero-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 .search-bar {
     font-size: 14px;
     width: 1000px;
@@ -224,6 +231,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
+    .main-title {
+        font-size: 80px;
+    }
+
+    .sub-title {
+        font-size: 12px;
+        letter-spacing: 0.3rem;
+    }
+
+    .contact-us-title {
+        font-size: 70px;
+    }
+
     .footer-links-wrapper {
         display: flex;
         flex-direction: column;
