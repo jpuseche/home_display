@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1200px) {
     .hero-titles {
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
     .hero {
@@ -263,15 +263,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .search-button {
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
 
 
 @media (max-width: 600px) {
     .main-title {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .sub-title {
