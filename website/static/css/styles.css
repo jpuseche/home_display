@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5, h6 {
     scrollbar-width: thin;
 }
 
+.paragraph {
+    width: 750px;
+}
+
 .carousel-proportion {
     width: 1160px;
 }
@@ -246,6 +250,10 @@ h1, h2, h3, h4, h5, h6 {
         width: 95%;
         flex-direction: column;
         border-radius: 10px;
+    }
+
+    .paragraph {
+        width: 100%;
     }
 
     .search-bar-inner {
