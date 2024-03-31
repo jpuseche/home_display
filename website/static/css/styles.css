@@ -72,6 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 .search-button {
     margin: 10px;
     background-color: transparent;
+    border-color: black;
+    color: black;
 }
 
 .search-button:hover {
@@ -204,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1200px) {
     .hero-titles {
-        padding-top: 100px;
+        padding-top: 60px;
     }
 
     .hero {
