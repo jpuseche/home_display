@@ -4,8 +4,6 @@ This is a Django project in charge of serving a page that shows home opportuniti
 
 Use command:
 
-    ```
     python manage.py runserver
-    ```
 
 To run the Django Project locally.
