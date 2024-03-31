@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Acumin";
+    src: url("../fonts/acumin.otf") format("opentype");
+}
+
+body {
+    font-family: "Helvetica";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Acumin";
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.header{
+    z-index: 2;
+}
+
+.header-links {
+    font-size: 15px;
+}
+
+.main-logo {
+    enable-background:new 0 0 7584.91 2243.25;
+    width: 120px;
+}
+
+.white-logo {
+    filter: invert(100%);
+}
+
+.hero {
+    background-image: url("../images/hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+    height: 750px;
+}
+
+.main-title {
+    font-size: 100px;
+}
+
+.sub-title {
+    font-size: 13px;
+    letter-spacing: 0.3rem;
+}
+
+.hero .search-bar {
+    background-color: #EAECEB;
+}
+
+.search-bar {
+    font-size: 14px;
+    width: 1000px;
+}
+
+.search-bar-label {
+    letter-spacing: 0.1rem;
+}
+
+.search-button {
+    margin: 10px;
+    background-color: transparent;
+}
+
+.search-button:hover {
+    background-color: white;
+}
+
+.properties-title {
+    font-size: 40px;
+}
+
+.property-image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.property-image-wrapper img {
+    width: 290px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform .4s;   /* smoother zoom */
+}
+
+.property-image-wrapper:hover img {
+    transform: scale(1.3);
+    transform-origin: 50% 50%;
+}
+
+.properties-overflow { 
+    overflow-x: visible;
+    scrollbar-color: #d4d4d4 white;
+    scrollbar-width: thin;
+}
+
+.carousel-proportion {
+    width: 100%;
+    height: 37rem;
+}
+
+.carousel-image {
+    position: relative;
+    bottom: 150px;
+    width: 130%;
+}
+
+.carousel .carousel-indicators > :not(.active)  {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    border: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0 .15rem rgb(255, 255, 255);
+}
+
+.carousel .carousel-indicators > .active {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    border: 0;
+    box-shadow: 0 0 0 .15rem rgb(255, 255, 255);
+}
+
+.contact-us {
+    background-image: url("../images/long_term_rentals.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+    height: 560px;
+    margin-top: 140px;
+}
+
+.contact-us-title {
+    font-size: 90px;
+}
+
+.contact-us-button {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+}
+
+.contact-us-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    background-color: #D6EAEE;
+}
+
+.footer-title {
+    font-size: 18px;
+}
+
+.footer-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.icon-size {
+    width: 22px;
+}
+
+.get-app-icon {
+    height: 34px;
+}
+
+@media (min-width: 1200px) {
+    .search-bar {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero {
+        background-size: cover;
+        background-position: center 40px;
+    }
+
+    .search-button {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .carousel-image {
+        position: relative;
+        bottom: 0px;
+        width: auto;
+        height: 120%;
+    }
+
+    .contact-us {
+        background-size: cover;
+        background-position: center 40px;
+    }
+
+    .footer .main-logo {
+        display: none;
+    }
+}

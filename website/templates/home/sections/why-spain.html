@@ -1,0 +1,45 @@
+{% load static %}
+<div class="text-center text-black d-flex align-items-center flex-column m-5">
+    <h1 id="whySpain" class="main-title mt-5">WHY SPAIN?</h1>
+    <p id="whySpainContent" class="text-center container-xxl">
+        Traveling to Spain is an enriching adventure that promises a tapestry of experiences. From the vibrant streets of Barcelona to the historic alleys 
+        of Toledo, every corner reveals a new facet of its rich culture. Indulge in world-renowned cuisine, from savory tapas to delectable paella, and savor 
+        the flavors of this gastronomic paradise. Explore architectural wonders like the Sagrada Familia and Alhambra, marveling at their intricate designs 
+        and rich history. Relax on sun-drenched beaches or hike through breathtaking landscapes. Whether you seek art, history, cuisine, or natural beauty, 
+        Spain offers an unforgettable journey brimming with warmth, passion, and discovery.
+    </p>
+    <div id="citiesCarousel" class="carousel slide container-xxl mt-4 carousel-proportion" data-ride="carousel">
+        <ul class="carousel-indicators text-white">
+            <li data-bs-target="#citiesCarousel" data-bs-slide-to="0" class="active" aria-label="Madrid"></li>
+            <li data-bs-target="#citiesCarousel" data-bs-slide-to="1" aria-label="Granada"></li>
+            <li data-bs-target="#citiesCarousel" data-bs-slide-to="2" aria-label="Bilbao"></li>
+            <li data-bs-target="#citiesCarousel" data-bs-slide-to="3" aria-label="Barcelona"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item h-100 active">
+                <img src="{% static 'images/madrid.jpg' %}" class="d-block carousel-image" load="lazy" loading="lazy" alt="madrid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Madrid</h5>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="{% static 'images/granada.jpg' %}" class="d-block carousel-image" load="lazy" loading="lazy" alt="granada">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Granada</h5>
+                </div>
+            </div>
+            <div class="carousel-item h-100">
+                <img src="{% static 'images/bilbao.jpg' %}" class="d-block carousel-image" load="lazy" loading="lazy" alt="bilbao">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bilbao</h5>
+                </div>
+            </div>  
+            <div class="carousel-item h-100">
+                <img src="{% static 'images/barcelona.jpg' %}" class="d-block carousel-image" load="lazy" loading="lazy" alt="barcelona">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Barcelona</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% load static %}
+<html lang="en">
+    {% include 'head_tag.html' %}
+    <body>
+        {% include 'partials/header.html' %}
+        
+        {% include 'home/sections/hero.html' %}
+
+        {% include 'home/sections/highlighted-properties.html' %}
+
+        {% include 'home/sections/why-spain.html' %}
+
+        {% include 'home/sections/contact-us.html' %}
+
+        {% include 'partials/footer.html' %}
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+</html>
