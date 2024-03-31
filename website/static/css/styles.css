@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .search-bar {
@@ -203,6 +203,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1200px) {
+    .hero-titles {
+        padding-top: 100px;
+    }
+
     .hero {
         background-size: cover;
         background-position: center 0px;
