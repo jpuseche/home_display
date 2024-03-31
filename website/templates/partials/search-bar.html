@@ -1,10 +1,10 @@
 {% load static %}
 <form action="/" class="search-bar py-3 px-4 mx-2">
     <div class="search-bar-inner w-100 px-4">
-        <div class="form-group col-sm">
+        <div class="form-group col-sm pb-2">
             <div class="d-flex">
                 <img src="{% static 'images/search.svg' %}" style="width: 14px;">
-                <label class="destination-label search-bar-label ms-1">DESTINATION</label>
+                <label class="destination-label search-bar-label ms-1 mt-2">DESTINATION</label>
             </div>
             <div class="d-flex flex-row text-black border-bottom border-dark mx-3">
                 <input class="w-100 border-0 bg-transparent" type="text" placeholder="Bogotá, Colombia">
@@ -14,7 +14,7 @@
         <div class="form-group col-sm">
             <div class="d-flex">
                 <img src="{% static 'images/calendar.svg' %}" style="width: 14px;">
-                <label class="check-in-label search-bar-label ms-1">CHECK IN - CHECK OUT</label>
+                <label class="check-in-label search-bar-label ms-1 mt-2">CHECK IN - CHECK OUT</label>
             </div>
             <div class="d-flex flex-row text-black border-bottom border-dark mx-3">
                 <input class="check-in-input w-100 border-0 bg-transparent" type="text" placeholder="Add dates">
@@ -24,7 +24,7 @@
         <div class="form-group col-sm">
             <div class="d-flex">
                 <img src="{% static 'images/person.svg' %}" style="width: 14px;">
-                <label class="guests-label search-bar-label ms-1">GUESTS</label>
+                <label class="guests-label search-bar-label ms-1 mt-2">GUESTS</label>
             </div>
             <div class="d-flex flex-row text-black border-bottom border-dark mx-3">
                 <input class="guests-input w-100 border-0 bg-transparent" type="text" placeholder="2 Guests">

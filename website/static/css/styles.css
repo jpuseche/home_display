@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     border-color: black;
     color: black;
+    height: 35px;
 }
 
 .search-button:hover {
@@ -261,8 +262,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .search-button {
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 120px;
+        margin-right: 120px;
     }
 }
 
