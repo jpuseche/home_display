@@ -1,3 +1,23 @@
+$(window).on( "scroll", function(){
+    if ($(window).scrollTop() === 0) {
+        $(".header").removeClass("bg-white");
+        $(".header").removeClass("shadow-sm");
+        $("#wynwoodHouse").addClass("text-white");
+        $("#changeLanguage").addClass("text-white");
+        $("#wynwoodHouse").removeClass("text-black");
+        $("#changeLanguage").removeClass("text-black");
+        $(".main-logo").addClass("white-logo");
+    } else {
+        $(".header").addClass("bg-white", 100);
+        $(".header").addClass("shadow-sm", 100);
+        $("#wynwoodHouse").removeClass("text-white");
+        $("#changeLanguage").removeClass("text-white");
+        $("#wynwoodHouse").addClass("text-black");
+        $("#changeLanguage").addClass("text-black");
+        $(".main-logo").removeClass("white-logo");
+    }
+});
+
 const params = new URLSearchParams(document.location.search);
 
 if (params.get("lang") === "es") {
